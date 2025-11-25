@@ -16,7 +16,7 @@ Prompts for creating new artifacts:
 ### `general/`
 General-purpose prompts for common agent workflows:
 - `autonomous-mode-now.md` - Autonomous engineering agent mode for isolated branch work with time/credit constraints, emphasizing documentation-first approach and continuous high-impact work
-- `check-the-work.md` - Verification prompt for skeptically reviewing prior work, testing claims, and ensuring quality with concrete evidence
+- `verify-previous-work.md` - Verification prompt for skeptically reviewing prior work, testing claims, and ensuring quality with concrete evidence
 - `do-you-know-what-to-do-next.md` - Branch workflow prompt for determining current state, preparing merge handoffs, and identifying next tasks on feature branches 
 
 
