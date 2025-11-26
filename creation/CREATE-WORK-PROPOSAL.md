@@ -232,7 +232,8 @@ work_order_generation:
 ### Tracking Integration
 After saving, execute tracking command:
 ```bash
-~/.agents/scripts/track-project.sh "[project-name]" "Proposal created" "[problem summary]" "[agent-name]" "create proposal" "" "file://[absolute-path-to-proposal]"
+~/.agents/scripts/track-project.sh "[project-name]" "Proposal created" \
+  "Proposal: [proposal-title]" "[agent-name]"
 ```
 
 Parameters:

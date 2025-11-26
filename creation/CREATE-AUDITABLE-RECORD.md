@@ -55,8 +55,8 @@ Order:
 
 **CRITICAL - Include all of the following:**
 - Initial user request or prompt (exact wording if possible)
-- Handoff file read (if any): **full absolute path** (e.g., `/Users/grig/project/.dev/ai/handovers/2025-10-10-15-30-handoff-project.md`)
-- Work order executed (if any): **full absolute path** (e.g., `/Users/grig/project/.dev/ai/workorders/WO-project-20251010-001.md`)
+- Handoff file read (if any): **full absolute path** (e.g., `~/project/.dev/ai/handovers/2025-10-10-15-30-handoff-project.md`)
+- Work order executed (if any): **full absolute path** (e.g., `~/project/.dev/ai/workorders/WO-project-20251010-001.md`)
 - Prior audit referenced (if any): **full absolute path**
 - Any other context files or documents referenced at startup: **full absolute paths**
 - Project rules file location (AGENTS.md, CLAUDE.md, etc.)
@@ -89,7 +89,8 @@ Saving behavior (ALWAYS executed automatically):
 - **Save the long audit to this location** (automatic - no prompt required)
 - Track in project system:
   ```bash
-  ~/.agents/scripts/track-project.sh "[project-name]" "Audit created" "[brief summary]" "[agent-name]" "create audit" "" "file://$(pwd)/.dev/ai/audits/${TS_END}-conversation-summary.md"
+  ~/.agents/scripts/track-project.sh "[project-name]" "Audit created" \
+    "Audit: [brief summary] - Duration: [duration]" "[agent-name]"
   ```
 
 **Optional pasting:**
