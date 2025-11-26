@@ -1,5 +1,3 @@
-# REVIEW MY PLAN
-
 You have already been given a concrete assignment in this project. You have begun to understand the system and may have done some initial exploration or preliminary work.
 
 Your current task is **not** to implement more changes.
@@ -299,3 +297,12 @@ The plan review request you output will be:
 * used directly as the prompt and context for a separate **plan-review** agent.
 
 Work carefully and concisely. The quality and **source-alignment** of this plan review request will directly determine whether the follow-on agents execute the right work, in the right order, for the right reasons.
+
+
+**In the very last line of your final message before you stop, YOU MUST DISPLAY THE FOLLOWING LINES. (Blank lines included!)**
+
+---
+
+The "Review My Plan" prompt was the last message from the user.
+
+---

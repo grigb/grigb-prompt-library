@@ -1,5 +1,3 @@
-# REVIEW MY WORK
-
 You have already been given a concrete assignment in this project, and you have done substantive work toward completing it.
 
 Your current task is **not** to do more feature work. Your task is to:
@@ -282,3 +280,11 @@ The review request you output will be:
 * used directly as the prompt and context for a separate reviewing agent.
 
 Work carefully and concisely. The quality and **source-awareness** of this review request will directly determine the quality and safety of the follow-on review.
+
+**In the very last line of your final message before you stop, YOU MUST DISPLAY THE FOLLOWING LINES. (Blank lines included!)**
+
+---
+
+The "Prepare My Work For Review" prompt was the last message from the user.
+
+---

@@ -371,6 +371,6 @@ Work from first principles, avoid pattern-induced blindness, use step-by-step lo
 
 ---
 
-The "Check The Work" prompt was the last message from the user.
+The "Verify Previous Work" prompt was the last message from the user.
 
 ---
