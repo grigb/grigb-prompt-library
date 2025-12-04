@@ -17,6 +17,8 @@
 | HANDOFF-MINIMAL | `~/.agents/prompts/handoffs/HANDOFF-MINIMAL.md` |
 | DISCUSSION-MODE | `~/.agents/prompts/modes/DISCUSSION-MODE.md` |
 | DEEP-RESEARCH-PROMPT-GENERATOR | `~/.agents/prompts/research/deep-research-prompt-generator.md` |
+| INTERFACE-AUDIT-ORCHESTRATOR | `~/.agents/prompts/general/interface-audit-orchestrator.md` |
+| PARALLEL-REVIEW-ORCHESTRATOR | `~/.agents/prompts/general/parallel-review-orchestrator.md` |
 
 ## Full Directory Structure
 
@@ -79,9 +81,11 @@
 │   └── deep-research-prompt-generator.md
 │
 └── general/                            # General purpose prompts
-    ├── do-you-know-what-to-do-next.md
-    ├── prepare-work-for-review.md
     ├── autonomous-mode-now.md
+    ├── do-you-know-what-to-do-next.md
+    ├── interface-audit-orchestrator.md
+    ├── parallel-review-orchestrator.md
+    ├── prepare-work-for-review.md
     ├── review-my-plan.md
     └── verify-previous-work.md
 ```
@@ -116,5 +120,5 @@ Example resolution:
 
 ---
 
-**Last Updated**: 2025-11-25
+**Last Updated**: 2025-12-04
 **Maintained by**: Automated sync from directory structure
