@@ -116,7 +116,7 @@ All paths use `~/.agents/prompts/` as the base directory.
 
 Example resolution:
 - Index shows: `~/.agents/prompts/creation/CREATE-WORK-PROPOSAL.md`
-- Full path: `/Users/grig/.agents/prompts/creation/CREATE-WORK-PROPOSAL.md`
+- Full path: `~/.agents/prompts/creation/CREATE-WORK-PROPOSAL.md`
 
 ---
 

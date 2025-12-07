@@ -1,119 +1,118 @@
-# 🤖 AI Agent Prompts Directory
+# AI Agent Prompts Library
 
-This directory contains comprehensive prompt templates and agent instructions that power complex AI agent orchestration systems. Each prompt is carefully designed for specific workflows, ensuring consistent behavior across different agent interactions.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Status: Active Development](https://img.shields.io/badge/Status-Active%20Development-orange.svg)](#disclaimer)
 
-## 📁 Directory Structure
+A collection of prompt templates and agent instructions for AI agent orchestration systems.
 
-### `agents/` - Specialized Agent Directory
-**Comprehensive collection of specialized AI agents for domain-specific tasks**
+---
 
-This directory contains 25+ specialized agents organized by expertise area, from development and research to business operations and creative work. Each agent is designed for specific workflows and can be invoked through various AI platforms.
+## Disclaimer
 
-**📖 [See detailed agents README](agents/README.md)** for complete descriptions of all agents, usage guidelines, and integration instructions across different platforms (Cursor, Claude Code, Gemini, etc.)
+**This is a work in progress.** These prompts are actively developed and used within the author's AI agent systems. Before using:
 
-**Key Agent Categories:**
-- **Core Development**: Project orchestration, QA, implementation
-- **Research & Analysis**: Technical research, gap analysis, strategic intelligence
-- **Business Operations**: Executive coordination, financial planning, marketing
-- **Creative & Design**: UX design, content creation, innovation
-- **Technical Infrastructure**: Data analysis, security, tooling, networking
+- Prompts work within specific orchestration systems and may reference external tools not included here
+- Not exhaustively tested in isolation
+- Continuously evolving as underlying systems develop
+- May require adaptation for your use case
 
-### `creation/` - Artifact Creation Templates
-Prompts for generating structured documents and artifacts:
+See the [LICENSE](LICENSE) file for the full disclaimer.
 
-- **`CREATE-AUDITABLE-RECORD.md`** - Generates comprehensive audit trails and compliance documentation with full traceability
-- **`CREATE-FEATURE-REQUEST.md`** - Captures detailed feature requirements and specifications for development
-- **`CREATE-WORK-PROPOSAL.md`** - Creates detailed work proposals with scope, timeline, and resource requirements
+---
 
-### `general/` - Core Workflow Prompts
-Essential prompts for common agent operational workflows:
+## Directory Structure
 
-- **`autonomous-mode-now.md`** - Autonomous engineering mode for independent task completion with documentation-first approach
-- **`verify-previous-work.md`** - Skeptical verification of work claims with concrete evidence requirements
-- **`prepare-work-for-review.md`** - Packages completed work for peer review with full context and documentation
-- **`review-my-plan.md`** - Prepares implementation plans for review before execution begins
-- **`do-you-know-what-to-do-next.md`** - Autonomous task progression and state assessment for ongoing work
+### `agents/` - Specialized Agents
+**29 specialized AI agents** organized by expertise area.
 
-### `handoffs/` - Work Transfer Protocols
-Standardized handoff templates for seamless agent-to-agent work transfers:
+Categories include:
+- **Development**: Project orchestration, QA, implementation
+- **Research**: Technical research, gap analysis, strategic intelligence
+- **Business**: Executive coordination, financial planning, marketing
+- **Creative**: UX design, content creation, innovation
+- **Infrastructure**: Data analysis, security, tooling, diagnostics
 
-- **`HANDOFF.md`** - Standard handoff protocol for routine work transfers
-- **`HANDOFF-MINIMAL.md`** - Lightweight handoff for simple, quick transfers
-- **`HANDOFF-DETAILED.md`** - Comprehensive handoff with full context, risks, and next steps
+See [`agents/README.md`](agents/README.md) for complete agent descriptions and usage.
 
-### `modes/` - Behavioral Mode Definitions
-Special operational modes that change agent behavior:
+### `creation/` - Artifact Creation
+Prompts for generating structured documents:
 
-- **`DISCUSSION-MODE.md`** - Read-only analysis mode for planning, discussion, and theoretical exploration without code changes
+| File | Purpose |
+|------|---------|
+| `CREATE-AUDITABLE-RECORD.md` | Audit trails and compliance documentation |
+| `CREATE-FEATURE-REQUEST.md` | Feature requirements and specifications |
+| `CREATE-WORK-PROPOSAL.md` | Work proposals with scope and resources |
 
-### `research/` - Research & Investigation
-Specialized prompts for research workflows:
+### `general/` - Core Workflows
+Essential prompts for common agent operations:
 
-- **`deep-research-prompt-generator.md`** - Transforms research briefs into comprehensive, multi-model research prompts with complexity assessment and execution guidance
+| File | Purpose |
+|------|---------|
+| `autonomous-mode-now.md` | Independent task completion mode |
+| `verify-previous-work.md` | Verification of work claims with evidence |
+| `prepare-work-for-review.md` | Package work for peer review |
+| `review-my-plan.md` | Plan review before execution |
+| `do-you-know-what-to-do-next.md` | Task progression and state assessment |
+| `interface-audit-orchestrator.md` | Interface audit coordination |
+| `parallel-review-orchestrator.md` | Parallel review coordination |
 
-### `work-orders/` - Work Order Lifecycle
-Complete work order management system:
+### `handoffs/` - Work Transfer
+Standardized templates for agent-to-agent work transfers:
 
-- **`CREATE-WORK-ORDER.md`** - Generates self-contained, executable work orders with complete context
-- **`EXECUTE-WORK-ORDER.md`** - Executes work orders with progress tracking and validation
-- **`WORK-ORDER-INDEX.md`** - Maintains work order registries and tracking
+| File | Purpose |
+|------|---------|
+| `HANDOFF.md` | Standard handoff protocol |
+| `HANDOFF-MINIMAL.md` | Lightweight quick transfers |
+| `HANDOFF-DETAILED.md` | Comprehensive handoff with full context |
 
-### `archive/` - Legacy & Backup Files
-Historical artifacts and migration backups (not actively used):
-- Migration manifests and backup files from system evolution
+### `modes/` - Behavioral Modes
+Special operational modes that modify agent behavior:
 
-## 🚀 Usage Context
+| File | Purpose |
+|------|---------|
+| `DISCUSSION-MODE.md` | Read-only analysis for planning and discussion |
 
-These prompts power complex AI agent orchestration systems and are referenced by:
+### `research/` - Research Workflows
+Specialized prompts for research:
 
-- **AGENTS.md** - Central system configuration and agent definitions
-- **Project tracking** - Work order and session management
-- **Mode orchestration** - Dynamic behavior switching
-- **Work order execution** - Structured task completion pipelines
+| File | Purpose |
+|------|---------|
+| `deep-research-prompt-generator.md` | Transform briefs into comprehensive research prompts |
 
-### When to Use Each Category:
+### `work-orders/` - Work Order System
+Complete work order lifecycle management:
 
-| Category | Use Case |
-|----------|----------|
-| **agents/** | Define specialized agent roles for specific domains |
-| **creation/** | Generate structured documents and proposals |
-| **general/** | Handle common development and review workflows |
-| **handoffs/** | Transfer work between agents or sessions |
-| **modes/** | Change agent behavior for specific contexts |
-| **research/** | Conduct deep research and investigation |
-| **work-orders/** | Manage structured, trackable work execution |
+| File | Purpose |
+|------|---------|
+| `CREATE-WORK-ORDER.md` | Generate executable work orders |
+| `EXECUTE-WORK-ORDER.md` | Execute with progress tracking |
+| `WORK-ORDER-INDEX.md` | Work order registries and tracking |
 
-## 📝 Adding New Prompts
+---
 
-### Process:
-1. **Choose Category** - Select the most appropriate subdirectory based on the prompt's primary function
-2. **Naming Convention** - Use clear, descriptive names: `ACTION-OBJECT.md` or `ROLE-NAME.md`
-3. **Documentation** - Add the new prompt to this README with a clear description
-4. **Integration** - Update AGENTS.md if the prompt needs system-wide references
+## Quick Reference
 
-### Quality Guidelines:
-- **Purpose-driven** - Each prompt should serve a specific, well-defined function
-- **Self-contained** - Include all necessary context and instructions
-- **Consistent** - Follow established patterns and formatting
-- **Testable** - Should produce predictable, reliable results
+| Need to... | Use |
+|------------|-----|
+| Define specialized agent roles | `agents/` |
+| Generate documents or proposals | `creation/` |
+| Handle development workflows | `general/` |
+| Transfer work between agents | `handoffs/` |
+| Change agent behavior modes | `modes/` |
+| Conduct deep research | `research/` |
+| Manage structured work execution | `work-orders/` |
 
-## 🔗 Integration Points
+---
 
-These prompts integrate with the broader AI agent infrastructure:
+## Adding Prompts
 
-- **AGENTS.md** - Central configuration and mode definitions
-- **Project tracking** - Work order and session management
-- **Submodule system** - Private repository for prompt management
-- **Mode orchestration** - Dynamic behavior switching
-- **Audit trails** - Comprehensive work documentation
+1. **Choose the right directory** based on the prompt's function
+2. **Use clear naming**: `ACTION-OBJECT.md` or `ROLE-NAME.md`
+3. **Make prompts self-contained** with all necessary context
+4. **Update this README** with the new prompt
 
-## 🔄 Sync Management
+---
 
-This directory is synchronized with a private agents-prompts repository. To update the prompts:
+## License
 
-```bash
-cd docs/team/prompts
-git pull origin main  # Get latest from your private repo
-```
-
-This keeps your local prompt developments in sync with your private repository.
+MIT License. See [LICENSE](LICENSE) for details.
