@@ -16,6 +16,7 @@
 | HANDOFF-DETAILED | `~/.agents/prompts/handoffs/HANDOFF-DETAILED.md` |
 | HANDOFF-MINIMAL | `~/.agents/prompts/handoffs/HANDOFF-MINIMAL.md` |
 | DISCUSSION-MODE | `~/.agents/prompts/modes/DISCUSSION-MODE.md` |
+| ORGANIZE-DOCS+DIRS | `~/.agents/prompts/general/organize-docs+dirs.md` |
 | DEEP-RESEARCH-PROMPT-GENERATOR | `~/.agents/prompts/research/deep-research-prompt-generator.md` |
 | INTERFACE-AUDIT-ORCHESTRATOR | `~/.agents/prompts/general/interface-audit-orchestrator.md` |
 | PARALLEL-REVIEW-ORCHESTRATOR | `~/.agents/prompts/general/parallel-review-orchestrator.md` |
@@ -26,7 +27,15 @@
 ~/.agents/prompts/
 ├── README.md                           # Main prompts documentation
 ├── PROMPT-PATH-INDEX.md               # THIS FILE - fast lookup
-├── ORGANIZE-DOCS+DIRS.md              # Documentation organization guide
+├── general/                           # General purpose prompts
+│   ├── autonomous-mode-now.md
+│   ├── do-you-know-what-to-do-next.md
+│   ├── interface-audit-orchestrator.md
+│   ├── organize-docs+dirs.md          # Documentation organization guide
+│   ├── parallel-review-orchestrator.md
+│   ├── prepare-work-for-review.md
+│   ├── review-my-plan.md
+│   └── verify-previous-work.md
 │
 ├── agents/                             # Specialized AI agents
 │   ├── README.md                       # Agent directory index
@@ -77,17 +86,8 @@
 ├── modes/                              # Special operation modes
 │   └── DISCUSSION-MODE.md             # Discussion mode protocol
 │
-├── research/                           # Research prompts
-│   └── deep-research-prompt-generator.md
-│
-└── general/                            # General purpose prompts
-    ├── autonomous-mode-now.md
-    ├── do-you-know-what-to-do-next.md
-    ├── interface-audit-orchestrator.md
-    ├── parallel-review-orchestrator.md
-    ├── prepare-work-for-review.md
-    ├── review-my-plan.md
-    └── verify-previous-work.md
+└── research/                           # Research prompts
+    └── deep-research-prompt-generator.md
 ```
 
 ## Usage Instructions for AI Agents
