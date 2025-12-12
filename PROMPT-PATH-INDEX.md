@@ -20,6 +20,7 @@
 | DEEP-RESEARCH-PROMPT-GENERATOR | `~/.agents/prompts/research/deep-research-prompt-generator.md` |
 | INTERFACE-AUDIT-ORCHESTRATOR | `~/.agents/prompts/general/interface-audit-orchestrator.md` |
 | PARALLEL-REVIEW-ORCHESTRATOR | `~/.agents/prompts/general/parallel-review-orchestrator.md` |
+| REVIEW-LOOSE-ENDS | `~/.agents/prompts/general/review-loose-ends.md` |
 
 ## Full Directory Structure
 
@@ -34,6 +35,7 @@
 │   ├── organize-docs+dirs.md          # Documentation organization guide
 │   ├── parallel-review-orchestrator.md
 │   ├── prepare-work-for-review.md
+│   ├── review-loose-ends.md           # AI work audit & loose ends extraction
 │   ├── review-my-plan.md
 │   └── verify-previous-work.md
 │
@@ -120,5 +122,5 @@ Example resolution:
 
 ---
 
-**Last Updated**: 2025-12-04
+**Last Updated**: 2025-12-08
 **Maintained by**: Automated sync from directory structure
